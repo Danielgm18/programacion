@@ -12,22 +12,20 @@
 #encuentre el valor de x en la siguiente ecuacion
 
 # AX = B - Z
-
+print("Vamos a solucionar la ecuacion AX = B - Z, por favor inserta los valores")
 A= int(input("El valor de la variable A es:"))
-print (type(A), A)
-print (type(A),A)
-
 B= int(input("El valor de la variable B es:"))
-
 Z= int(input("El valor de la variable Z es:"))
-
 
 #Despues de los valores dar el resultado de la ecuación
 D= B - Z
 print("Ax=",(D))
-print("x=", D / A)
+D1= D / A
+print("x=", D1)
+print("El valor de x es:", D1)
 
 #Conversiones str,int y float
+print("Vamos hacer converciones entre str, int, float")
 C=str(input("Dar valor a la variable C:"))
 print(type(C),C)
 #De str a int
@@ -59,39 +57,43 @@ if(E>5):
 else:
    print("la condicion no se ejecuto")
    print("la variable E no es mayor a 5")
-   
-#E<X
-if(E<9):
+E1=int(input("Inserta el valor a la variable E1:"))   
+#E1<X
+if(E1<9):
   print("este es el resultado de if verdadero")
-  print("La variable E es menor a 9")
+  print("La variable E1 es menor a 9")
 else:
    print("la condicion no se ejecuto")
-   print("la variable E no es mayor a 9")
-#E<=X
-if(E<=6):
+   print("la variable E1 no es mayor a 9")
+#E2<=X
+E2=int(input("Inserta el valor a la variable E2:"))
+if(E2<=6):
    print("Este es el resultado de if verdadero")
-   print("la variable E es menor o igual a 6")
+   print("la variable E2 es menor o igual a 6")
 else:
    print("la condicion no se cumple")
-   print("la variable E no es menor o igual a 6")
-#E>=x
-if(E>=3):
+   print("la variable E2 no es menor o igual a 6")
+#E3>=x
+E3=int(input("Inserta el valor a la variable E3:"))
+if(E3>=3):
    print("este es el resultado de if verdadero")
-   print("la variable E es mayor o igual a 3")
+   print("la variable E3 es mayor o igual a 3")
 else:
    print("la condicion no se cumple")
-   print("la variable E no es mayor o igual a 3")
-#E==X
-if(E==8):
+   print("la variable E3 no es mayor o igual a 3")
+#E4==X
+E4=int(input("Inserta el valor a la variable E4:"))
+if(E4==8):
    print("este es el resultado de if verdadero")
-   print("la variable E igual a 8")
+   print("la variable E4 es igual a 8")
 else:
    print("la condicion no se cumple")
-   print("la variable E no es igual a 8")
-#E=!X
-if(E!=4):
+   print("la variable E4 no es igual a 8")
+#E5=!X
+E5=int(input("Inserta el valor a la variable E5:"))
+if(E5!=4):
    print("este es el resultado de if verdadero")
-   print("la variable E es diferente a 4")
+   print("la variable E5 es diferente a 4")
 else:
     print("la condicion no se cumple")
-    print("la variable E no es diferente a 4")
+    print("la variable E5 no es diferente a 4")
